@@ -1,4 +1,5 @@
 ﻿CREATE TABLE [Reference].[Bond] (
-    [Default] CHAR (1) NULL
+    [BondID] INT NOT NULL IDENTITY, 
+    CONSTRAINT [PK_Bond] PRIMARY KEY ([BondID])
 );
 

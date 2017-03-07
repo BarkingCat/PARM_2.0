@@ -1,4 +1,11 @@
 ﻿CREATE TABLE [Reference].[Stock] (
-    [Default] CHAR (1) NULL
+    [StockID] INT NOT NULL IDENTITY, 
+    [Ticker] NCHAR(3) NOT NULL, 
+    [PreviousTicker] NCHAR(3) NOT NULL, 
+    [CompanyName] NVARCHAR(255) NOT NULL, 
+    [CompanyIndustry] NVARCHAR(255) NOT NULL, 
+    [IndustryIndexID] INT NOT NULL, 
+    [ExchangeID] INT NOT NULL, 
+    CONSTRAINT [PK_Stock] PRIMARY KEY ([StockID])
 );
 
