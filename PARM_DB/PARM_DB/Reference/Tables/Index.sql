@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Index]
+(
+    [IndexID] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [IndexName] NVARCHAR(255) NOT NULL
+)
