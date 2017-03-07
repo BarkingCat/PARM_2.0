@@ -6,6 +6,7 @@
     [CompanyIndustry] NVARCHAR(255) NOT NULL, 
     [IndustryIndexID] INT NOT NULL, 
     [ExchangeID] INT NOT NULL, 
-    CONSTRAINT [PK_Stock] PRIMARY KEY ([StockID])
+    CONSTRAINT [PK_Stock] PRIMARY KEY ([StockID]), 
+    CONSTRAINT [FK_Stock_Exchange] FOREIGN KEY ([ExchangeID]) REFERENCES [Reference].[Exchange]([ExchangeID])
 );
 
