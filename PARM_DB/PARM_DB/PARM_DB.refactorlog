@@ -49,4 +49,46 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="IndexID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="4114b9c6-eeef-4e6f-82be-e4c1c33f5f17" ChangeDateTime="03/08/2017 01:54:32">
+    <Property Name="ElementName" Value="[Portfolio].[PortfolioDetails].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Portfolio].[PortfolioDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PortfolioID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d9cdece9-ff39-40c0-9f3e-547e58b9689d" ChangeDateTime="03/08/2017 01:56:09">
+    <Property Name="ElementName" Value="[Portfolio].[PortfolioDetails].[PortfolioCurrency]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Portfolio].[PortfolioDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PortfolioCurrencyID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bf3b71f4-8852-489e-baeb-cc89ec87ca01" ChangeDateTime="03/08/2017 02:00:29">
+    <Property Name="ElementName" Value="[Portfolio].[Trades].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Portfolio].[Trades]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PortfolioID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4d47966a-63b3-415e-85b5-5ece2007f01e" ChangeDateTime="03/08/2017 02:06:16">
+    <Property Name="ElementName" Value="[Portfolio].[PortfolioMetrics].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Portfolio].[PortfolioMetrics]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PortfolioID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a1bedb40-8ad1-43ec-a11f-69898f7eb280" ChangeDateTime="03/08/2017 02:16:35">
+    <Property Name="ElementName" Value="[Portfolio].[Positions].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Portfolio].[Positions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e552af7b-9836-4207-961e-0e12d9030557" ChangeDateTime="03/08/2017 02:22:33">
+    <Property Name="ElementName" Value="[Portfolio].[ProfitAndLoss].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Portfolio].[ProfitAndLoss]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateID" />
+  </Operation>
 </Operations>
