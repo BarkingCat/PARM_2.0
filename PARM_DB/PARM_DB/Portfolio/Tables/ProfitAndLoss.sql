@@ -11,16 +11,19 @@
     [MTDValueChange] DECIMAL NOT NULL, 
     [YTDValueChange] DECIMAL NOT NULL,
     [LTDValueChange] DECIMAL NOT NULL,
-	 
+     
     [DailyDividendsReceivedChange] DECIMAL NOT NULL, 
     [MTDDividendsReceivedChange] DECIMAL NOT NULL, 
     [YTDDividendsReceivedChange] DECIMAL NOT NULL,
     [LTDDividendsReceivedChange] DECIMAL NOT NULL, 
 
-	[DailyFundingCostChange] DECIMAL NOT NULL, 
+    [DailyFundingCostChange] DECIMAL NOT NULL, 
     [MTDFundingCostChange] DECIMAL NOT NULL, 
     [YTDFundingCostChange] DECIMAL NOT NULL,
     [LTDFundingCostChange] DECIMAL NOT NULL, 
-    CONSTRAINT [PK_ProfitAndLoss] PRIMARY KEY ([DateID], [PortfolioID], [StockID])
+    CONSTRAINT [PK_ProfitAndLoss] PRIMARY KEY ([DateID], [PortfolioID], [StockID]), 
+    CONSTRAINT [FK_ProfitAndLoss_Date] FOREIGN KEY ([DateID]) REFERENCES [Reference].[Date]([DateID]), 
+    CONSTRAINT [FK_ProfitAndLoss_PortfolioDetails] FOREIGN KEY ([PortfolioID]) REFERENCES [Portfolio].[PortfolioDetails]([PortfolioID]), 
+    CONSTRAINT [FK_ProfitAndLoss_Stock] FOREIGN KEY ([StockID]) REFERENCES [Reference].[Stock]([StockID])
 );
 

@@ -10,6 +10,9 @@
     [TaxPaid] DECIMAL NULL, 
     [DividendsReceived] DECIMAL NULL, 
     [FundingCost] DECIMAL NULL, 
-    CONSTRAINT [PK_Positions] PRIMARY KEY ([DateID], [PortfolioID], [StockID])
+    CONSTRAINT [PK_Positions] PRIMARY KEY ([DateID], [PortfolioID], [StockID]), 
+    CONSTRAINT [FK_Positions_Date] FOREIGN KEY ([DateID]) REFERENCES [Reference].[Date]([DateID]), 
+    CONSTRAINT [FK_Positions_PortfolioDetails] FOREIGN KEY ([PortfolioID]) REFERENCES [Portfolio].[PortfolioDetails]([PortfolioID]), 
+    CONSTRAINT [FK_Positions_Stock] FOREIGN KEY ([StockID]) REFERENCES [Reference].[Stock]([StockID])
 );
 
