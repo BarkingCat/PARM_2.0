@@ -1,2 +1,5 @@
 *.dbmdl
 *.jfm
+PARM_DB/PARM_DB/obj/Debug/refactor.xml
+*.dacpac
+PARM_DB/PARM_DB/obj/
