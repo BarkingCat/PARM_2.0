@@ -91,4 +91,32 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="DateID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="ae8d2f59-e2df-46aa-8eb0-e5194fbfa20d" ChangeDateTime="03/08/2017 06:34:09">
+    <Property Name="ElementName" Value="[MarketData].[StockPrices].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[MarketData].[StockPrices]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4fa40e60-4022-4791-933b-ea0a22bc2767" ChangeDateTime="03/08/2017 06:37:11">
+    <Property Name="ElementName" Value="[MarketData].[CPIRates].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[MarketData].[CPIRates]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4299a4fb-422b-4bae-8381-b7d84f4eabd9" ChangeDateTime="03/08/2017 06:42:00">
+    <Property Name="ElementName" Value="[MarketData].[CashRates].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[MarketData].[CashRates]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b3f7a005-faae-4a4f-b61b-1d394977b264" ChangeDateTime="03/08/2017 06:45:40">
+    <Property Name="ElementName" Value="[MarketData].[FXRates].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[MarketData].[FXRates]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateID" />
+  </Operation>
 </Operations>
