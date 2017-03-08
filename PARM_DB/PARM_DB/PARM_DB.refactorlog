@@ -119,4 +119,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="DateID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="e6c49a99-4669-4c18-acbd-a0622f9a61e3" ChangeDateTime="03/08/2017 06:53:53">
+    <Property Name="ElementName" Value="[MarketData].[BondPrices].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[MarketData].[BondPrices]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateID" />
+  </Operation>
 </Operations>

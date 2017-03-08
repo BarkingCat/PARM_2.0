@@ -8,6 +8,7 @@
     [MarginLoanInterestRate] DECIMAL NULL, 
     [StopLossPercentage] DECIMAL NULL, 
     [LVRLimit] DECIMAL NULL, 
-    CONSTRAINT [FK_PortfolioDetails_User] FOREIGN KEY ([UserID]) REFERENCES [Control].[Users]([UserID])
+    CONSTRAINT [FK_PortfolioDetails_User] FOREIGN KEY ([UserID]) REFERENCES [Control].[Users]([UserID]), 
+    CONSTRAINT [PK_PortfolioDetails] PRIMARY KEY ([PortfolioID])
 );
 
