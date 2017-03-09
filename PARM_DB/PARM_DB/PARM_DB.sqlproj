@@ -66,6 +66,8 @@
     <Folder Include="Portfolio\Tables\" />
     <Folder Include="MarketData\" />
     <Folder Include="MarketData\Tables\" />
+    <Folder Include="Staging\" />
+    <Folder Include="Staging\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Control\Tables\Users.sql" />
@@ -110,8 +112,11 @@
     <Build Include="Security\Control.sql" />
     <Build Include="Reference\Tables\Country.sql" />
     <Build Include="Reference\Tables\Exchange.sql" />
-    <Build Include="Reference\Tables\Index.sql" />
     <Build Include="Reference\Tables\Date.sql" />
+    <Build Include="Reference\Tables\Index.sql" />
+    <Build Include="Staging\Tables\TradeHistory.sql" />
+    <Build Include="Reference\Tables\Broker.sql" />
+    <Build Include="Security\Staging.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="PARM_DB.refactorlog" />

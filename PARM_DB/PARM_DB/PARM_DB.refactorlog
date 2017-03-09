@@ -126,4 +126,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="DateID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="4c4e21ac-638d-4e24-a8d7-33b830f78bfb" ChangeDateTime="03/09/2017 21:07:30">
+    <Property Name="ElementName" Value="[Staging].[TradeHistory].[Default]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Staging].[TradeHistory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PortfolioID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bd6484e6-4e43-4b86-82ef-bcb96cbe5fbd" ChangeDateTime="03/09/2017 21:13:10">
+    <Property Name="ElementName" Value="[Reference].[Broker].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Reference].[Broker]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BrokerID" />
+  </Operation>
 </Operations>
